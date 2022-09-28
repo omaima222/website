@@ -1,0 +1,50 @@
+body{
+background-color: black
+
+}
+#nav1{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  margin-left:10px ;
+  margin-right: 10px;
+}
+ol{  
+    
+    color: white;
+    list-style-type: none;
+    display: flex;
+}
+
+ul  {
+    margin-right: 30px;
+    list-style-type: none;
+    display: flex;
+
+} 
+li{
+    margin: 10px;
+    font-size: 18px;
+}
+h1{
+    margin-left:20px;
+    color: black ;
+}
+p{
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+a{  
+    text-decoration: none;
+    color: white;
+}
+#a1{
+    color: black;
+}
+section{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
