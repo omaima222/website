@@ -1,50 +1,122 @@
 body{
-background-color: black
+background-color: rgb(202, 180, 207);
 
 }
 #nav1{
   display: flex;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.288);
   justify-content: space-between;
   margin-left:10px ;
   margin-right: 10px;
 }
 ol{  
-    
-    color: white;
+    color: rgb(255, 255, 255);
     list-style-type: none;
     display: flex;
+    font-weight: bold;
+
 }
 
 ul  {
-    margin-right: 30px;
+    margin-right: 20px;
     list-style-type: none;
     display: flex;
-
+    font-family:"Bradley Hand ITC";
+    font-weight: bold;
 } 
 li{
     margin: 10px;
-    font-size: 18px;
+    font-size: 23px;
 }
 h1{
     margin-left:20px;
-    color: black ;
+    color: white ;
+    margin-top: -1px;
 }
 p{
-    color: black;
+    color: white;
     margin-right: 10px;
     margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a{  
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #a1{
-    color: black;
+    color: rgb(192, 12, 12);
 }
-section{
-    background-color: white;
+#a1:hover{
+   color: blue;
+}
+a:hover{
+   color: blue;
+
+}
+
+#up{
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 5px;
     margin-left: 10px;
     margin-right: 10px;
 }
+#card{
+    padding: 15px;
+    background-color:rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 20px;
+    box-shadow: 0px 2px 5px;
+}
+
+#card:hover{
+    box-shadow: 0px 10px 40px;
+}
+#card2{
+    padding: 15px;
+    background-color:rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-right: 20px;
+    box-shadow: 0px 2px 5px;
+}
+#card2:hover{
+    box-shadow: 0px 10px 40px;
+}
+#card3{
+    padding: 15px;
+    background-color:rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-right: 20px;
+    box-shadow: 0px 2px 5px;
+}
+#card3:hover{
+    box-shadow: 0px 10px 40px;
+}
+#card4{
+    padding: 15px;
+    background-color:rgb(0, 0, 0);
+    margin-top: 50px;
+    box-shadow: 0px 2px 5px;
+}
+#card4:hover{
+    box-shadow: 0px 10px 40px;
+}
+h2{
+    color:white;
+    font-weight: lighter;
+    margin-top: -3px;
+}
+h3{
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+}
+h4{
+    margin-bottom:-7px;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
